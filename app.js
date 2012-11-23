@@ -165,7 +165,7 @@ function initMap() {
     earthquakes.bind('reset', setup_layer);
     earthquakes.fetch();
     if(!location.hash) {
-        map.setCenterZoom(new MM.Location(18.0, -3.4), 2);
+        map.setCenterZoom(new MM.Location(40.07807142745009, -3.9111328125), 6);
     }
     var hash = new MM.Hash(map);
 

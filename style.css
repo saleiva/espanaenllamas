@@ -1,0 +1,64 @@
+@font-face {
+  font-family: "Segoe UI Bold";
+  src: url(/fonts/SEGOEUIB.eot);
+  src: url(/fonts/SEGOEUIB.eot?#iefix) format('eot'), url(/fonts/SEGOEUIB.woff) format('woff'), url(/assets/SEGOEUIB.ttf) format('truetype'), url(/fonts/SEGOEUIB.svg) format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+
+div.header{
+	background-color: #FFF;
+	width: 100%;
+	height: 83px;
+	display:block;
+	position: absolute;
+	top:0;
+	left:0;
+	z-index: 100;
+}
+
+h1{
+	margin: 27px 0 0 0;
+}
+
+div.pause{
+	position: absolute;
+	height: 197px;
+	width: 198px;
+	left: 50%;
+	top:300px;
+	margin-left: -98px;
+	background: url('/img/bigButton.png') 1px 0 no-repeat;
+	z-index: 110;
+}
+
+div.play{
+	position: absolute;
+	height: 197px;
+	width: 198px;
+	left: 50%;
+	top:300px;
+	margin-left: -98px;
+	background: url('/img/bigButton.png') 1px -198px no-repeat;
+	z-index: 110;
+}
+
+div.logo h1{
+	font-family: "Segoe UI Bold";
+	font-size: 27px;
+	color: #333;
+	float:left;
+	margin-left: 30px;
+}
+
+div.box h1{
+	font-family: "Segoe UI Bold";
+	font-size: 27px;
+	color: #397DB9;
+	float: right;
+	margin-right: 30px;
+}
+
+div.hidden{
+	display: none;
+}

@@ -28,7 +28,7 @@ div.pause{
 	left: 50%;
 	top:300px;
 	margin-left: -98px;
-	background: url('../img/bigButton.png') 1px 0 no-repeat;
+	background: url('img/bigButton.png') 1px 0 no-repeat;
 	z-index: 110;
 }
 
@@ -39,7 +39,7 @@ div.play{
 	left: 50%;
 	top:300px;
 	margin-left: -98px;
-	background: url('../img/bigButton.png') 1px -198px no-repeat;
+	background: url('img/bigButton.png') 1px -198px no-repeat;
 	z-index: 110;
 }
 
